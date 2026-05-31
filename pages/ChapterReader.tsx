@@ -77,22 +77,40 @@ const ChapterReader: React.FC = () => {
   return (
     <div className="bg-gray-100 dark:bg-[#121212] min-h-screen flex flex-col">
       <SEOHead
-        title={`Dandadan Manga Chapter ${chapter.number} - Read Online`}
-        description={`Read Dandadan Manga Chapter ${chapter.number}: ${chapter.title} online in high quality free. Official English scans available.`}
+        title={`Dandadan Chapter ${chapter.number}: ${chapter.title} - Read Online Free`}
+        description={`Read Dandadan Manga Chapter ${chapter.number}: ${chapter.title} online in high quality for free. HD English scans updated weekly by Tatsu Yukinobu.`}
+        canonicalUrl={`https://readdandadanmanga.online/chapter/${chapter.number}`}
+        ogImage={chapter.pages[0] || undefined}
         schema={{
           "@context": "https://schema.org",
           "@type": "ComicIssue",
+          "name": `Dandadan Chapter ${chapter.number}: ${chapter.title}`,
           "headline": `Dandadan Chapter ${chapter.number}: ${chapter.title}`,
           "image": chapter.pages[0],
           "datePublished": chapter.releaseDate,
           "issueNumber": chapter.number,
+          "url": `https://readdandadanmanga.online/chapter/${chapter.number}`,
+          "isPartOf": {
+            "@type": "ComicSeries",
+            "name": "Dandadan",
+            "url": "https://readdandadanmanga.online/"
+          },
           "author": {
             "@type": "Person",
             "name": "Tatsu Yukinobu"
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Dandadan Manga"
+            "name": "Dandadan Manga",
+            "url": "https://readdandadanmanga.online"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "All Chapters", "item": "https://readdandadanmanga.online/manga" },
+              { "@type": "ListItem", "position": 3, "name": `Chapter ${chapter.number}`, "item": `https://readdandadanmanga.online/chapter/${chapter.number}` }
+            ]
           }
         }}
       />
@@ -363,7 +381,7 @@ const ChapterReader: React.FC = () => {
           <h2 className="text-bb-blue font-bold uppercase tracking-widest mb-4 text-xs">Dandadan Manga</h2>
           <p className="text-gray-500 text-sm leading-relaxed max-w-2xl mx-auto">
             You are currently reading <strong className="text-gray-400">Dandadan Chapter {chapter.number}</strong> online in high quality. 
-            Enjoy the latest installment of Tatsu Yukinobu's hit masterpiece, and follow the journey to become the world's greatest striker.
+            Enjoy the latest installment of Tatsu Yukinobu's acclaimed supernatural adventure, and follow Momo and Okarun's wild journey through aliens and ghosts.
           </p>
         </div>
       </div>

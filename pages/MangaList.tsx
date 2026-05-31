@@ -22,9 +22,28 @@ const MangaList: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-[#0a0a0a]">
       <SEOHead
-        title="Dandadan Manga Library - All Chapters"
-        description="Browse the complete collection of Dandadan manga chapters. Read online in high quality."
+        title="Dandadan Manga All Chapters List - Read Online"
+        description="Browse the complete Dandadan manga chapter list. Read all 234+ chapters by Tatsu Yukinobu online in HD quality for free. Updated regularly."
         canonicalUrl="https://readdandadanmanga.online/manga"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Dandadan Manga - All Chapters",
+          "description": "Complete chapter list for Dandadan manga by Tatsu Yukinobu.",
+          "url": "https://readdandadanmanga.online/manga",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Dandadan Manga",
+            "url": "https://readdandadanmanga.online"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "All Chapters", "item": "https://readdandadanmanga.online/manga" }
+            ]
+          }
+        }}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">

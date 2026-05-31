@@ -7,8 +7,23 @@ const Characters: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <SEOHead
-        title="Dandadan Manga Characters - Database"
-        description="Detailed profiles of Dandadan Manga characters including Momo Ayase, Ken Takakura (Okarun) and more."
+        title="Dandadan Manga Characters - Full Profile Database"
+        description="Detailed character profiles for Dandadan manga: Momo Ayase, Ken Takakura (Okarun), Seiko Ayase, and more. Powers, roles, and story arcs explained."
+        canonicalUrl="https://readdandadanmanga.online/characters"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Dandadan Manga Characters",
+          "description": "Comprehensive character database for Dandadan manga by Tatsu Yukinobu.",
+          "url": "https://readdandadanmanga.online/characters",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "Characters", "item": "https://readdandadanmanga.online/characters" }
+            ]
+          }
+        }}
       />
 
       <div className="text-center mb-16">
@@ -18,31 +33,42 @@ const Characters: React.FC = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {CHARACTERS.map((char) => (
-          <div key={char.id} className="group flex flex-col bg-[#1a1a1a] rounded-xl border border-white/5 p-6 hover:border-bb-blue/50 transition-all duration-300 hover:shadow-lg hover:shadow-bb-blue/10">
-            <div className="flex justify-between items-start mb-4">
-              <div className="flex flex-col gap-2">
-                <h2 className="text-2xl font-bold text-white group-hover:text-bb-blue transition-colors">
-                  {char.name}
-                </h2>
-                <span className="self-start px-2 py-1 text-[10px] font-bold uppercase tracking-widest text-[#3b82f6] bg-[#3b82f6]/10 rounded-md">
-                  {char.role}
-                </span>
+          <div key={char.id} className="group flex flex-col bg-[#1a1a1a] rounded-xl border border-white/5 overflow-hidden hover:border-pink-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-pink-500/5">
+            {/* Character Image Container */}
+            <div className="relative h-80 overflow-hidden bg-[#242424]">
+              <img 
+                src={char.image} 
+                alt={char.name}
+                loading="lazy"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-out"
+              />
+              {/* Elegant Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-transparent to-transparent opacity-90"></div>
+              
+              {/* Absolute Role Badge */}
+              <div className="absolute top-4 left-4 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-pink-400 bg-pink-950/80 backdrop-blur-md rounded-md border border-pink-500/20 shadow-md">
+                {char.role} Character
               </div>
-              <span className="px-3 py-1 text-xs font-medium text-gray-400 bg-white/5 rounded-full border border-white/5">
-                {char.role}
-              </span>
+              
+              {/* Absolute Grade Badge */}
+              {char.grade && (
+                <div className="absolute bottom-4 left-4 px-2.5 py-1 text-xs font-medium text-white bg-black/60 backdrop-blur-sm rounded-md border border-white/10 shadow-sm">
+                  {char.grade}
+                </div>
+              )}
             </div>
 
-            <p className="text-gray-400 text-sm leading-relaxed flex-1 mb-8">
-              {char.description}
-            </p>
-
-            <div className="pt-4 border-t border-white/5">
-              <button className="text-sm font-bold text-white hover:text-bb-blue transition-colors flex items-center gap-2 group-hover:translate-x-1 duration-200">
-                Read Full Profile <ArrowRight className="w-4 h-4" />
-              </button>
+            {/* Character Details Content */}
+            <div className="p-6 flex flex-col flex-grow">
+              <h2 className="text-2xl font-bold text-white group-hover:text-pink-500 transition-colors mb-3">
+                {char.name}
+              </h2>
+              
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {char.description}
+              </p>
             </div>
           </div>
         ))}

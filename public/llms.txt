@@ -1,0 +1,33 @@
+# Dandadan Manga — readdandadanmanga.online
+
+## About
+Dandadan Manga is a fan reading platform dedicated to the manga series "Dandadan" (ダンダダン) by Tatsu Yukinobu. The site provides free access to high-quality English scans of all available chapters.
+
+## Manga Info
+- Title: Dandadan
+- Author: Tatsu Yukinobu
+- Publisher: Shōnen Jump+ (Shueisha)
+- Serialization Start: April 6, 2021
+- Status: Ongoing
+- Chapters Available: 234+
+- Genre: Action, Comedy, Supernatural, Sci-Fi, Romance
+- Synopsis: Momo Ayase, who believes in ghosts, and Ken Takakura (Okarun), who believes in aliens, are classmates who get caught up in a series of supernatural and extraterrestrial incidents after being cursed and abducted.
+
+## Key Characters
+- Momo Ayase — psychic high school student, main protagonist
+- Ken Takakura (Okarun) — alien geek cursed with power by Turbo Granny
+- Seiko Ayase — Momo's grandmother, powerful spirit medium
+- Turbo Granny — a legendary ghost who curses Okarun
+
+## Site Pages
+- Homepage: https://readdandadanmanga.online/
+- All Chapters: https://readdandadanmanga.online/manga
+- Chapter Reader: https://readdandadanmanga.online/chapter/{number}
+- Characters: https://readdandadanmanga.online/characters
+- About: https://readdandadanmanga.online/about
+
+## Contact
+Email: Support@readdandadanmanga.online
+
+## Disclaimer
+This is a fan project. Not affiliated with Tatsu Yukinobu, Shōnen Jump+, or Shueisha. All manga content belongs to their respective copyright owners.

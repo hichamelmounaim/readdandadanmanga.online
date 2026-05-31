@@ -12,21 +12,88 @@ const Home: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Dandadan Manga - Read Online High Quality"
-        description="Read Dandadan Manga online in high quality. The best place for Dandadan chapters, character info, and latest updates. All chapters available."
-        schema={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Dandadan Manga",
-          "url": "https://readdandadanmanga.online",
-        }}
+        title="Read Dandadan Manga Online Free in HD"
+        description="Read Dandadan Manga online in high quality English. All 234+ chapters by Tatsu Yukinobu. HD scans, fast loading, no sign-up required."
+        canonicalUrl="https://readdandadanmanga.online/"
+        schema={[
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Dandadan Manga",
+            "url": "https://readdandadanmanga.online",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://readdandadanmanga.online/manga?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ComicSeries",
+            "name": "Dandadan",
+            "alternateName": ["Dan Da Dan", "ダンダダン"],
+            "description": "Momo Ayase and Ken Takakura get cursed and abducted, starting a chaotic supernatural adventure filled with aliens, ghosts, and romance.",
+            "url": "https://readdandadanmanga.online/",
+            "image": "https://readdandadanmanga.online/logo.png",
+            "author": {
+              "@type": "Person",
+              "name": "Tatsu Yukinobu"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Shōnen Jump+"
+            },
+            "genre": ["Action", "Comedy", "Supernatural", "Sci-Fi", "Romance"],
+            "startDate": "2021-04-06",
+            "inLanguage": "en",
+            "numberOfIssues": 234
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why Read Dandadan Manga on this Site?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Experience Dandadan manga like never before with high-quality scans and regularly updated chapters. Dive into the intense storyline without delays."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is the Dandadan Manga Finished?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, the Dandadan manga is currently ongoing. New chapters are released in Weekly Shonen Magazine."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where should I start reading Dandadan?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with Chapter 1. The story builds progressively, so starting from the beginning is highly recommended to fully appreciate the character development."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are the differences between Dandadan Manga and Anime?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Dandadan manga offers more detailed art that the anime sometimes simplifies. The supernatural effects are more visceral in the manga."
+                }
+              }
+            ]
+          }
+        ]}
       />
 
       {/* Hero Section */}
       <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-bb-dark py-20">
         <div className="absolute inset-0 z-0 opacity-30 select-none pointer-events-none">
           <img
-            src="/dandadan.webp"
+            src="/dandadan.jpg"
             alt=""
             width="1920"
             height="1080"

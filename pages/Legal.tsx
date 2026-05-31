@@ -105,9 +105,20 @@ const Legal: React.FC<LegalProps> = ({ type }) => {
 
     const { title, content } = getContent();
 
+    const metaDescriptions: Record<LegalType, string> = {
+        privacy: 'Dandadan Manga privacy policy — how we collect, use, and protect your data. GDPR and CCPA compliant.',
+        dmca: 'Dandadan Manga DMCA copyright policy. Submit a takedown notice or report infringing content.',
+        disclaimer: 'Dandadan Manga disclaimer — fan project, not affiliated with Tatsu Yukinobu or Shōnen Jump+.',
+        terms: 'Terms and conditions for using Dandadan Manga. Read our rules and guidelines before using the site.',
+    };
+
     return (
         <div className="max-w-4xl mx-auto px-4 py-16 min-h-screen">
-            <SEOHead title={`${title} - Dandadan Manga`} description={`Read our ${title}.`} />
+            <SEOHead
+                title={`${title} - Dandadan Manga`}
+                description={metaDescriptions[type]}
+                canonicalUrl={`https://readdandadanmanga.online/${type}`}
+            />
             <h1 className="text-3xl md:text-4xl font-bold mb-8 dark:text-white border-b border-gray-200 dark:border-gray-800 pb-4">{title}</h1>
             <div className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">
                 {content}

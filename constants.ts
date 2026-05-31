@@ -21,26 +21,66 @@ export const CHARACTERS: Character[] = [
   {
     "id": "momo",
     "name": "Momo Ayase",
-    "role": "Protagonist",
-    "grade": "Psychic",
-    "description": "A high school girl who develops psychokinetic powers.",
-    "image": "https://picsum.photos/400/600?random=10"
+    "role": "Main",
+    "grade": "Psychic Protagonist",
+    "description": "A fierce and kind high school girl raised by a spirit medium grandmother, she unlocks powerful psychokinetic abilities allowing her to manipulate environmental auras.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b222594-24Jn7qlI5spH.png"
   },
   {
     "id": "okarun",
     "name": "Ken Takakura (Okarun)",
-    "role": "Protagonist",
-    "grade": "Cursed Human",
-    "description": "An alien geek cursed and powered up by Turbo Granny.",
-    "image": "https://picsum.photos/400/600?random=11"
+    "role": "Main",
+    "grade": "Cursed Protagonist",
+    "description": "An occult and alien geek who gets cursed by the Turbo Granny, gaining the ability to transform into a powerful, high-speed, melancholic spirit form.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b222593-qBqUvpodooAI.png"
+  },
+  {
+    "id": "aira",
+    "name": "Aira Shiratori",
+    "role": "Main",
+    "grade": "Acrobatic Silky Host",
+    "description": "A popular high school girl with a savior complex who gains the ability to see spirits and later channels the acrobatic, flame-like hair powers of the Acrobatic Silky.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b245466-rd5I5mchZ3bv.png"
+  },
+  {
+    "id": "jiji",
+    "name": "Jin Enjouji (Jiji)",
+    "role": "Main",
+    "grade": "Evil Eye Host",
+    "description": "Momo's energetic and athletic childhood friend who becomes possessed by the powerful and terrifying well-bound spirit known as the Evil Eye.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b258506-mMMInKyQq7ib.png"
+  },
+  {
+    "id": "vamola",
+    "name": "Vamola",
+    "role": "Main",
+    "grade": "Sumerian Alien",
+    "description": "An alien girl from the Sumerian race who escapes to Earth seeking refuge, fighting alongside the group using a highly advanced, kaiju-like battle suit.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b289256-HEnb2zsSwsrF.png"
   },
   {
     "id": "seiko",
     "name": "Seiko Ayase",
-    "role": "Ally",
-    "grade": "Medium",
-    "description": "Momo's cool grandmother and a powerful spirit medium.",
-    "image": "https://picsum.photos/400/600?random=12"
+    "role": "Supporting",
+    "grade": "Spirit Medium (Grandma)",
+    "description": "Momo's extremely cool, youthful-looking grandmother who is a legendary spirit medium, using local deity barrier magic to protect their town.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b234824-i3s64ueaBqGq.png"
+  },
+  {
+    "id": "turbo-babaa",
+    "name": "Turbo Babaa (Turbo Granny)",
+    "role": "Supporting",
+    "grade": "Yokai Ally",
+    "description": "A notoriously fast, foul-mouthed yokai who cursed Okarun. After being defeated, her spirit is bound to a lucky cat doll, acting as a reluctant guide.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b239956-Fok0Pl3rNOEL.png"
+  },
+  {
+    "id": "acrobatic-sarasara",
+    "name": "Acrobatic Sarasara",
+    "role": "Supporting",
+    "grade": "Yokai",
+    "description": "A tragic yokai bound by maternal love who possesses elastic hair and high-speed acrobatics, she later passes her powers on to Aira.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b245467-xnhV5etjTvHZ.png"
   }
 ];
 

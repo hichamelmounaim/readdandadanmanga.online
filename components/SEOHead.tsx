@@ -3,34 +3,55 @@ import { SEOMeta } from '../types';
 
 interface SEOHeadProps extends SEOMeta {
   canonicalUrl?: string;
+  ogImage?: string;
 }
 
-const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonicalUrl }) => {
+const BASE_URL = 'https://readdandadanmanga.online';
+const DEFAULT_OG_IMAGE = `${BASE_URL}/logo.png`;
+
+function setMeta(selector: string, attr: string, value: string) {
+  let el = document.querySelector(selector);
+  if (!el) {
+    el = document.createElement('meta');
+    const [attrName, attrVal] = selector.replace('meta[', '').replace(']', '').split('=');
+    el.setAttribute(attrName, attrVal.replace(/"/g, ''));
+    document.head.appendChild(el);
+  }
+  el.setAttribute(attr, value);
+}
+
+const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonicalUrl, ogImage }) => {
   useEffect(() => {
-    // Update Title
-    document.title = `${title} | Dandadan Manga`;
+    const fullTitle = `${title} | Dandadan Manga`;
+    const image = ogImage || DEFAULT_OG_IMAGE;
+    const canonical = canonicalUrl || BASE_URL;
 
-    // Update Meta Description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
+    document.title = fullTitle;
+
+    setMeta('meta[name="description"]', 'content', description);
+
+    // Open Graph
+    setMeta('meta[property="og:title"]', 'content', fullTitle);
+    setMeta('meta[property="og:description"]', 'content', description);
+    setMeta('meta[property="og:url"]', 'content', canonical);
+    setMeta('meta[property="og:image"]', 'content', image);
+
+    // Twitter
+    setMeta('meta[property="twitter:title"]', 'content', fullTitle);
+    setMeta('meta[property="twitter:description"]', 'content', description);
+    setMeta('meta[property="twitter:url"]', 'content', canonical);
+    setMeta('meta[property="twitter:image"]', 'content', image);
+
+    // Canonical
+    let linkCanonical = document.querySelector('link[rel="canonical"]');
+    if (!linkCanonical) {
+      linkCanonical = document.createElement('link');
+      linkCanonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(linkCanonical);
     }
-    metaDescription.setAttribute('content', description);
+    linkCanonical.setAttribute('href', canonical);
 
-    // Add Canonical Tag
-    if (canonicalUrl) {
-      let linkCanonical = document.querySelector('link[rel="canonical"]');
-      if (!linkCanonical) {
-        linkCanonical = document.createElement('link');
-        linkCanonical.setAttribute('rel', 'canonical');
-        document.head.appendChild(linkCanonical);
-      }
-      linkCanonical.setAttribute('href', canonicalUrl);
-    }
-
-    // Add Schema.org JSON-LD
+    // Schema.org JSON-LD — supports single object or array of graphs
     if (schema) {
       let scriptSchema = document.querySelector('#structured-data');
       if (!scriptSchema) {
@@ -39,10 +60,13 @@ const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonical
         scriptSchema.setAttribute('type', 'application/ld+json');
         document.head.appendChild(scriptSchema);
       }
-      scriptSchema.textContent = JSON.stringify(schema);
+      const payload = Array.isArray(schema)
+        ? { "@context": "https://schema.org", "@graph": schema.map(s => ({ ...(s as object) })) }
+        : schema;
+      scriptSchema.textContent = JSON.stringify(payload);
     }
 
-  }, [title, description, schema, canonicalUrl]);
+  }, [title, description, schema, canonicalUrl, ogImage]);
 
   return null;
 };

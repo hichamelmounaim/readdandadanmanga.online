@@ -1,0 +1,31 @@
+{
+  "mangaEdgeSlug": "4qji6e-dandadan",
+  "history": [
+    {
+      "id": "f8wkwm0",
+      "date": "2026-05-30T15:33:51.246Z",
+      "type": "scrape",
+      "description": "Scraped successfully. Found 2 new chapter(s): Ch. 32.5, Ch. 40.5.",
+      "details": {
+        "newChaptersCount": 2,
+        "newChapterNumbers": [
+          32.5,
+          40.5
+        ],
+        "totalChapters": 236
+      }
+    },
+    {
+      "id": "2v4pnrc",
+      "date": "2026-05-30T16:17:17.391Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 236,
+        "bulkSync": true
+      }
+    }
+  ]
+}

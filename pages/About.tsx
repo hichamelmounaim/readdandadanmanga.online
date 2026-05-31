@@ -5,8 +5,22 @@ const About: React.FC = () => {
     return (
         <div className="max-w-4xl mx-auto px-4 py-16 min-h-screen">
             <SEOHead
-                title="About Us - Dandadan Manga"
-                description="Learn more about Dandadan Manga, our mission, and why we are the best place to read Dandadan online."
+                title="About Dandadan Manga - Our Mission & Story"
+                description="Learn about readdandadanmanga.online — our mission to provide the best Dandadan reading experience with HD scans, fast updates, and a fan-first community."
+                canonicalUrl="https://readdandadanmanga.online/about"
+                schema={{
+                  "@context": "https://schema.org",
+                  "@type": "AboutPage",
+                  "name": "About Dandadan Manga",
+                  "url": "https://readdandadanmanga.online/about",
+                  "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
+                      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://readdandadanmanga.online/about" }
+                    ]
+                  }
+                }}
             />
 
             <h1 className="text-3xl md:text-4xl font-bold mb-8 dark:text-white border-b border-gray-200 dark:border-gray-800 pb-4">
