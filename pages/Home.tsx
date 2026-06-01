@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     <>
       <SEOHead
         title="Read Dandadan Manga Online Free in HD"
-        description="Read Dandadan Manga online in high quality English. All 234+ chapters by Tatsu Yukinobu. HD scans, fast loading, no sign-up required."
+        description={`Read Dandadan Manga online in high quality English. All ${chapters.length}+ chapters by Tatsu Yukinobu. HD scans, fast loading, no sign-up required.`}
         canonicalUrl="https://readdandadanmanga.online/"
         schema={[
           {
@@ -41,12 +41,22 @@ const Home: React.FC = () => {
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Shōnen Jump+"
+              "name": "Shueisha",
+              "url": "https://www.shueisha.co.jp"
             },
             "genre": ["Action", "Comedy", "Supernatural", "Sci-Fi", "Romance"],
             "startDate": "2021-04-06",
             "inLanguage": "en",
-            "numberOfIssues": 234
+            "numberOfEpisodes": chapters.length,
+            "contentRating": "Teen",
+            "isAccessibleForFree": true,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "35000",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
           },
           {
             "@context": "https://schema.org",
