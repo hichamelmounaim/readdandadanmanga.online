@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /dist/
 
-Sitemap: https://readdandadanmanga.online/sitemap.xml
+Sitemap: https://www.readdandadanmanga.online/sitemap.xml
