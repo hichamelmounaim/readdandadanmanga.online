@@ -26,6 +26,19 @@
         "totalChapters": 236,
         "bulkSync": true
       }
+    },
+    {
+      "id": "yjpiiy1",
+      "date": "2026-06-02T08:57:27.012Z",
+      "type": "scrape",
+      "description": "Scraped successfully. Found 1 new chapter(s): Ch. 235.",
+      "details": {
+        "newChaptersCount": 1,
+        "newChapterNumbers": [
+          235
+        ],
+        "totalChapters": 237
+      }
     }
   ]
 }
