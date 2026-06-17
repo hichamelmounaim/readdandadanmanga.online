@@ -20,16 +20,16 @@ const Home: React.FC = () => {
       <SEOHead
         title="Read Dandadan Manga Online Free in HD"
         description={`Read Dandadan Manga online in high quality English. All ${chapters.length}+ chapters by Tatsu Yukinobu. HD scans, fast loading, no sign-up required.`}
-        canonicalUrl="https://readdandadanmanga.online/"
+        canonicalUrl="https://www.readdandadanmanga.online/"
         schema={[
           {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Dandadan Manga",
-            "url": "https://readdandadanmanga.online",
+            "url": "https://www.readdandadanmanga.online",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://readdandadanmanga.online/manga?q={search_term_string}",
+              "target": "https://www.readdandadanmanga.online/manga?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
@@ -39,8 +39,8 @@ const Home: React.FC = () => {
             "name": "Dandadan",
             "alternateName": ["Dan Da Dan", "ダンダダン"],
             "description": "Momo Ayase and Ken Takakura get cursed and abducted, starting a chaotic supernatural adventure filled with aliens, ghosts, and romance.",
-            "url": "https://readdandadanmanga.online/",
-            "image": "https://readdandadanmanga.online/logo.png",
+            "url": "https://www.readdandadanmanga.online/",
+            "image": "https://www.readdandadanmanga.online/logo.png",
             "author": {
               "@type": "Person",
               "name": "Tatsu Yukinobu"
@@ -374,11 +374,11 @@ const Home: React.FC = () => {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {[
-            { name: 'Blue Lock', url: 'https://readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
-            { name: 'Kagurabachi', url: 'https://kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
-            { name: 'Gachiakuta', url: 'https://readgachiakutamanga.online/', desc: 'Trash-powered warrior', emoji: '🗑️' },
-            { name: 'Nano Machine', url: 'https://nanomachinemanga.online/', desc: 'Futuristic murim rise', emoji: '⚙️' },
-            { name: 'Kingdom', url: 'https://readkingdommanga.online/', desc: '876 ch. epic history', emoji: '🏯' },
+            { name: 'Blue Lock', url: 'https://www.readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
+            { name: 'Kagurabachi', url: 'https://www.kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
+            { name: 'Gachiakuta', url: 'https://www.readgachiakutamanga.online/', desc: 'Trash-powered warrior', emoji: '🗑️' },
+            { name: 'Nano Machine', url: 'https://www.nanomachinemanga.online/', desc: 'Futuristic murim rise', emoji: '⚙️' },
+            { name: 'Kingdom', url: 'https://www.readkingdommanga.online/', desc: '876 ch. epic history', emoji: '🏯' },
           ].map(site => (
             <a key={site.url} href={site.url} target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center gap-2 p-5 bg-white/3 border border-white/5 rounded-xl hover:border-bb-blue/30 hover:bg-bb-blue/5 transition-all text-center">
               <span className="text-3xl">{site.emoji}</span>

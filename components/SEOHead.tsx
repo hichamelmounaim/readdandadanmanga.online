@@ -6,7 +6,7 @@ interface SEOHeadProps extends SEOMeta {
   ogImage?: string;
 }
 
-const BASE_URL = 'https://readdandadanmanga.online';
+const BASE_URL = 'https://www.readdandadanmanga.online';
 const DEFAULT_OG_IMAGE = `${BASE_URL}/logo.png`;
 
 function setMeta(selector: string, attr: string, value: string) {

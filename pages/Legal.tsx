@@ -117,7 +117,7 @@ const Legal: React.FC<LegalProps> = ({ type }) => {
             <SEOHead
                 title={`${title} - Dandadan Manga`}
                 description={metaDescriptions[type]}
-                canonicalUrl={`https://readdandadanmanga.online/${type}`}
+                canonicalUrl={`https://www.readdandadanmanga.online/${type}`}
             />
             <h1 className="text-3xl md:text-4xl font-bold mb-8 dark:text-white border-b border-gray-200 dark:border-gray-800 pb-4">{title}</h1>
             <div className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">

@@ -9,18 +9,18 @@ const Characters: React.FC = () => {
       <SEOHead
         title="Dandadan Manga Characters - Full Profile Database"
         description="Detailed character profiles for Dandadan manga: Momo Ayase, Ken Takakura (Okarun), Seiko Ayase, and more. Powers, roles, and story arcs explained."
-        canonicalUrl="https://readdandadanmanga.online/characters"
+        canonicalUrl="https://www.readdandadanmanga.online/characters"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Dandadan Manga Characters",
           "description": "Comprehensive character database for Dandadan manga by Tatsu Yukinobu.",
-          "url": "https://readdandadanmanga.online/characters",
+          "url": "https://www.readdandadanmanga.online/characters",
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
-              { "@type": "ListItem", "position": 2, "name": "Characters", "item": "https://readdandadanmanga.online/characters" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readdandadanmanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "Characters", "item": "https://www.readdandadanmanga.online/characters" }
             ]
           }
         }}

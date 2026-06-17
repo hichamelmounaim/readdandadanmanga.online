@@ -20,11 +20,11 @@ Dandadan Manga is a fan reading platform dedicated to the manga series "Dandadan
 - Turbo Granny — a legendary ghost who curses Okarun
 
 ## Site Pages
-- Homepage: https://readdandadanmanga.online/
-- All Chapters: https://readdandadanmanga.online/manga
-- Chapter Reader: https://readdandadanmanga.online/chapter/{number}
-- Characters: https://readdandadanmanga.online/characters
-- About: https://readdandadanmanga.online/about
+- Homepage: https://www.readdandadanmanga.online/
+- All Chapters: https://www.readdandadanmanga.online/manga
+- Chapter Reader: https://www.readdandadanmanga.online/chapter/{number}
+- Characters: https://www.readdandadanmanga.online/characters
+- About: https://www.readdandadanmanga.online/about
 
 ## Contact
 Email: Support@readdandadanmanga.online

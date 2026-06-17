@@ -7,17 +7,17 @@ const About: React.FC = () => {
             <SEOHead
                 title="About Dandadan Manga - Our Mission & Story"
                 description="Learn about readdandadanmanga.online — our mission to provide the best Dandadan reading experience with HD scans, fast updates, and a fan-first community."
-                canonicalUrl="https://readdandadanmanga.online/about"
+                canonicalUrl="https://www.readdandadanmanga.online/about"
                 schema={{
                   "@context": "https://schema.org",
                   "@type": "AboutPage",
                   "name": "About Dandadan Manga",
-                  "url": "https://readdandadanmanga.online/about",
+                  "url": "https://www.readdandadanmanga.online/about",
                   "breadcrumb": {
                     "@type": "BreadcrumbList",
                     "itemListElement": [
-                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
-                      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://readdandadanmanga.online/about" }
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readdandadanmanga.online/" },
+                      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://www.readdandadanmanga.online/about" }
                     ]
                   }
                 }}

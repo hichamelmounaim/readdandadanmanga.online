@@ -39,23 +39,23 @@ const MangaList: React.FC = () => {
       <SEOHead
         title="Dandadan Manga All Chapters List - Read Online"
         description="Browse the complete Dandadan manga chapter list. Read all 234+ chapters by Tatsu Yukinobu online in HD quality for free. Updated regularly."
-        canonicalUrl="https://readdandadanmanga.online/manga"
+        canonicalUrl="https://www.readdandadanmanga.online/manga"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Dandadan Manga - All Chapters",
           "description": "Complete chapter list for Dandadan manga by Tatsu Yukinobu.",
-          "url": "https://readdandadanmanga.online/manga",
+          "url": "https://www.readdandadanmanga.online/manga",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Dandadan Manga",
-            "url": "https://readdandadanmanga.online"
+            "url": "https://www.readdandadanmanga.online"
           },
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
-              { "@type": "ListItem", "position": 2, "name": "All Chapters", "item": "https://readdandadanmanga.online/manga" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readdandadanmanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "All Chapters", "item": "https://www.readdandadanmanga.online/manga" }
             ]
           }
         }}

@@ -7,11 +7,11 @@ import { useManga } from '../context/MangaContext';
 import { Chapter } from '../types';
 
 const SISTER_SITES = [
-  { name: 'Blue Lock Manga', url: 'https://readbluelockmanga.online/', desc: 'Isagi and 300 strikers battle for Japan\'s top striker spot.' },
-  { name: 'Kagurabachi Manga', url: 'https://kagurabachimanga.online/', desc: 'Chihiro hunts sorcerers with enchanted blades in this Shonen Jump hit.' },
-  { name: 'Gachiakuta Manga', url: 'https://readgachiakutamanga.online/', desc: 'Rudo fights to survive in the Pit with trash-powered abilities.' },
-  { name: 'Nano Machine Manga', url: 'https://nanomachinemanga.online/', desc: 'Cheon Yeo-Woon rises through the Demonic Cult with a nano machine.' },
-  { name: 'Kingdom Manga', url: 'https://readkingdommanga.online/', desc: 'Xin and Zheng unify ancient China across 876+ epic chapters.' },
+  { name: 'Blue Lock Manga', url: 'https://www.readbluelockmanga.online/', desc: 'Isagi and 300 strikers battle for Japan\'s top striker spot.' },
+  { name: 'Kagurabachi Manga', url: 'https://www.kagurabachimanga.online/', desc: 'Chihiro hunts sorcerers with enchanted blades in this Shonen Jump hit.' },
+  { name: 'Gachiakuta Manga', url: 'https://www.readgachiakutamanga.online/', desc: 'Rudo fights to survive in the Pit with trash-powered abilities.' },
+  { name: 'Nano Machine Manga', url: 'https://www.nanomachinemanga.online/', desc: 'Cheon Yeo-Woon rises through the Demonic Cult with a nano machine.' },
+  { name: 'Kingdom Manga', url: 'https://www.readkingdommanga.online/', desc: 'Xin and Zheng unify ancient China across 876+ epic chapters.' },
 ];
 
 const ChapterReader: React.FC = () => {
@@ -108,7 +108,7 @@ const ChapterReader: React.FC = () => {
       <SEOHead
         title={`Dandadan Chapter ${chapter.number}: ${chapter.title} - Read Online Free`}
         description={`Read Dandadan Manga Chapter ${chapter.number}: ${chapter.title} online in high quality for free. HD English scans updated weekly by Tatsu Yukinobu.`}
-        canonicalUrl={`https://readdandadanmanga.online/chapter/${chapter.number}`}
+        canonicalUrl={`https://www.readdandadanmanga.online/chapter/${chapter.number}`}
         ogImage={chapter.pages[0] || undefined}
         schema={{
           "@context": "https://schema.org",
@@ -118,11 +118,11 @@ const ChapterReader: React.FC = () => {
           "image": chapter.pages[0],
           "datePublished": chapter.releaseDate,
           "issueNumber": chapter.number,
-          "url": `https://readdandadanmanga.online/chapter/${chapter.number}`,
+          "url": `https://www.readdandadanmanga.online/chapter/${chapter.number}`,
           "isPartOf": {
             "@type": "ComicSeries",
             "name": "Dandadan",
-            "url": "https://readdandadanmanga.online/"
+            "url": "https://www.readdandadanmanga.online/"
           },
           "author": {
             "@type": "Person",
@@ -131,14 +131,14 @@ const ChapterReader: React.FC = () => {
           "publisher": {
             "@type": "Organization",
             "name": "Dandadan Manga",
-            "url": "https://readdandadanmanga.online"
+            "url": "https://www.readdandadanmanga.online"
           },
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://readdandadanmanga.online/" },
-              { "@type": "ListItem", "position": 2, "name": "All Chapters", "item": "https://readdandadanmanga.online/manga" },
-              { "@type": "ListItem", "position": 3, "name": `Chapter ${chapter.number}`, "item": `https://readdandadanmanga.online/chapter/${chapter.number}` }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.readdandadanmanga.online/" },
+              { "@type": "ListItem", "position": 2, "name": "All Chapters", "item": "https://www.readdandadanmanga.online/manga" },
+              { "@type": "ListItem", "position": 3, "name": `Chapter ${chapter.number}`, "item": `https://www.readdandadanmanga.online/chapter/${chapter.number}` }
             ]
           }
         }}
