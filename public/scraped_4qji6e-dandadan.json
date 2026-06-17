@@ -2,8 +2,8 @@
   "manga_title": "Dandadan",
   "manga_slug": "4qji6e-dandadan",
   "manga_url": "https://www.mangaedge.com/manga/4qji6e-dandadan/",
-  "cover_url": "/covers/73/1b591c0f43bcec03f9cc83dbc0078d.jpg?v1779965678576",
-  "alternative_titles": "Dan Da Dan, ダンダダン, دان دادان, Дандадан, 膽大黨, داندادان",
+  "cover_url": "/covers/73/1b591c0f43bcec03f9cc83dbc0078d.jpg?v1780798642740",
+  "alternative_titles": "Dan Da Dan, داندادان, ダンダダン, دان دادان, Дандадан, 膽大黨",
   "type": "Manga",
   "status": "Ongoing",
   "authors": [
@@ -17,8 +17,60 @@
     "Thriller"
   ],
   "synopsis": "Ken Takakura, a boy who is an occult fanatic who doesn&#039;t believe in ghosts, and Momo Ayase, a girl who doesn&#039;t believe in aliens, encounter overwhelming strangeness that transcends their mutual understanding...! An occult coming-of-age story!",
-  "scraped_at": "2026-06-02T08:59:24.349Z",
+  "scraped_at": "2026-06-17T10:45:26.362Z",
   "chapters": [
+    {
+      "chapter_number": 237,
+      "chapter_title": "Ch. 237",
+      "chapter_url": "https://www.mangaedge.com/manga/4qji6e-dandadan/237/",
+      "image_urls": [
+        "https://s11-95168.t34798ndc.com/CBsfS6OqTlgN9/wZH1w/33/NG/WQ/QQ/kk/Nz/km/Vh/EE/Uz/JU/NN/EU/lW/mm/Vz/NU-UFQUkVhWFzhJJ.pxm2.jpeg",
+        "https://s11-95168.t34798ndc.com/Prsxf/IVd7I/ll/TJ/W3/33/FF/Th/FK/Zr/UU/Eh/RE/TT/UE/aW/KK/Zh/TR-EY3EFZrWYhrRR.cbKz.jpeg",
+        "https://s11-95168.t34798ndc.com/QWS5pL0iM8AfGR47mZ/Ax5lA/mm/UF/NV/VV/tt/UQ/tK/4a/RR/0Q/Y0/UU/R0/2N/KK/4Q/U4-0WV0t4aNWQaYY.yOKe.jpeg",
+        "https://s11-95168.t34798ndc.com/25CiGP96uNjyoV/LDFZL/mm/SY/WM/MM/UU/ST/U1/ON/VV/0T/R0/SS/V0/dW/11/OT/SW-0KM0UONWKTNRR.Ig1y.jpeg",
+        "https://s11-95168.t34798ndc.com/cEPZpKq0T/tdYLt/aa/Re/p9/99/KK/RN/Ks/VW/zz/DN/BD/RR/zD/Hp/ss/VN/RK-Dk9DKVWpkNWBB.oxsU.jpeg",
+        "https://s11-95168.t34798ndc.com/7lDdpw95SuO6t3G/PjUBP/DD/VW/MT/TT/EE/Vk/Eq/KL/ZZ/zk/dz/VV/Zz/hM/qq/Kk/VL-zSTzEKLMSkLdd.Jwq0.jpeg",
+        "https://s11-95168.t34798ndc.com/tojL1fJ63p548IHZ/oFYbo/OO/U3/MR/RR/TT/Uz/Te/ac/55/Vz/lV/UU/5V/GM/ee/az/U4-V4RVTacM4zcll.ZXeH.jpeg",
+        "https://s11-95168.t34798ndc.com/Fmdaye3krs0JGWQjCE/HVMIH/jj/Wi/SQ/QQ/ll/Wz/l5/DB/00/Fz/ZF/WW/0F/dS/55/Dz/WQ-FaQFlDBSazBZZ.TX5m.jpeg",
+        "https://s11-95168.t34798ndc.com/wgScHAdB/IabeI/BB/Sv/UZ/ZZ/xx/Sq/xM/KC/GG/0q/10/SS/G0/2U/MM/Kq/Sq-0EZ0xKCUEqC11.mNMQ.jpeg",
+        "https://s11-95168.t34798ndc.com/HTZIY7/CUv4C/NN/Mm/RW/WW/00/MV/0t/QF/nn/EV/ZE/MM/nE/lR/tt/QV/EM-EPWE0QFRPVFZZ.39tH.jpeg",
+        "https://s11-95168.t34798ndc.com/7UQ9N28VbHCt/h92wh/cc/RH/TU/UU/00/RE/03/Vk/gg/1E/B1/RR/g1/bT/33/VE/11-1OU10VkTOEkBB.Gv3Q.jpeg",
+        "https://s11-95168.t34798ndc.com/xKcuOGd/4Vd24/aa/TZ/Qm/mm/00/Tu/0S/Xt/JJ/Eu/9E/TT/JE/LQ/SS/Xu/E9-ERmE0XtQRut99.bySY.jpeg",
+        "https://s11-95168.t34798ndc.com/jE4Wypx2RcPz9DhNbo/2JWT2/nn/SZ/Q0/00/cc/Sl/cm/Hw/zz/Fl/VF/SS/zF/hQ/mm/Hl/FH-FU0FcHwQUlwVV.itmx.jpeg",
+        "https://s11-95168.t34798ndc.com/s17Wnqwme9ON5VQ/bsTDb/oo/RQ/EN/NN/UU/RM/UG/5z/JJ/0M/w0/RR/J0/YE/GG/5M/0E-0VN0U5zEVMzww.reGI.jpeg",
+        "https://s11-95168.t34798ndc.com/5DvUXIPdpHqurGYWxjy/sYLOs/ee/UJ/VE/EE/NN/U9/Nc/SB/QQ/09/R0/UU/Q0/1V/cc/S9/0N-0TE0NSBVT9BRR.lGct.jpeg",
+        "https://s11-95168.t34798ndc.com/D86tMSr0Rgkwu/bmB1b/cc/Se/Vk/kk/YY/Sd/Yl/Z2/DD/Ud/tU/SS/DU/hV/ll/Zd/U2-URkUYZ2VRd2tt.QvlX.jpeg",
+        "https://s11-95168.t34798ndc.com/vkyMmALhgwZJ/QxhBQ/55/VR/Fp/pp/ZZ/Va/Zb/KT/JJ/0a/10/VV/J0/cF/bb/Ka/0l-0lp0ZKTFlaT11.tybk.jpeg",
+        "https://s11-95168.t34798ndc.com/phzUA/f1tEf/44/Rb/Te/ee/ll/RV/lW/GZ/dd/0V/F0/RR/d0/XT/WW/GV/0e-0me0lGZTmVZFF.j8W2.jpeg",
+        "https://s11-95168.t34798ndc.com/UdYTurDLzeEgRfbBj/PTdYP/aa/Qh/WV/VV/EE/Q1/E3/Up/SS/l1/Rl/QQ/Sl/xW/33/U1/l1-lZVlEUpWZ1pRR.JC32.jpeg"
+      ]
+    },
+    {
+      "chapter_number": 236,
+      "chapter_title": "Ch. 236",
+      "chapter_url": "https://www.mangaedge.com/manga/4qji6e-dandadan/236/",
+      "image_urls": [
+        "https://s11-95168.t34798ndc.com/wZCPXkbA5o3FSvt/CBUwC/ON/jN/QW/1x/kh/5o/jS/jF/5S/1x/dd/JS/1O/SN/VQ/OV/Sk-kFOSQJkdJSVJd.szoH.jpeg",
+        "https://s11-95168.t34798ndc.com/FXuE2p3fDb/iNWGi/Z6/k6/Jl/D9/UA/uH/kT/kx/uT/D9/EE/RT/DZ/T6/MJ/ZM/T9-UxZTJRUERTMRE.vOHj.jpeg",
+        "https://s11-95168.t34798ndc.com/wDRhEeK3C/LxbpL/5Y/SY/H1/mV/Nz/DG/ST/Sk/DT/mV/QQ/0T/m5/TY/9H/59/T0-Nk5TH0NQ0T90Q.vsGe.jpeg",
+        "https://s11-95168.t34798ndc.com/XBRiD0np9oZ5twWP/ykTvy/Jl/zl/HZ/W5/0c/Nb/zR/zj/NR/W5/hh/OR/WJ/Rl/SH/JS/RS-0jJRHO0hORSOh.BibU.jpeg",
+        "https://s11-95168.t34798ndc.com/1AiQ4tr7lCzG3anxJM/AZLdA/TJ/0J/hn/yN/kD/Ve/0R/0l/VR/yN/WW/1R/yT/RJ/Qh/TQ/R0-klTRh1kW1RQ1W.F3eb.jpeg",
+        "https://s11-95168.t34798ndc.com/0ZrbhBYgQ/CrnEC/wY/MY/ex/3F/V1/BI/MQ/Mo/BQ/3F/kk/JQ/3w/QY/Te/wT/Qk-VowQeJVkJQTJk.HRIU.jpeg",
+        "https://s11-95168.t34798ndc.com/ayckxBwSdDY/K90NK/dk/Uk/PG/2B/1E/qm/US/UO/qS/2B/ll/QS/2d/Sk/RP/dR/SO-1OdSPQ1lQSRQl.HFmI.jpeg",
+        "https://s11-95168.t34798ndc.com/WpRlaJt0jOik/b3RQb/0h/zh/5m/KZ/FJ/U4/zW/zH/UW/KZ/dd/CW/K0/Wh/V5/0V/W0-FH0W5CFdCWVCd.Ti4B.jpeg",
+        "https://s11-95168.t34798ndc.com/UdwpMBSbiIgtRcuj25aO/q51Kq/WX/UX/EB/RY/ly/Pd/US/UQ/PS/RY/VV/0S/RW/SX/ME/WM/SE-lQWSE0lV0SM0V.NidG.jpeg",
+        "https://s11-95168.t34798ndc.com/mjFHot1wzu0U8Kfg7pib/ISQTI/jh/kh/dY/PR/0p/O3/kV/kB/OV/PR/JJ/LV/Pj/Vh/Nd/jN/0V-0BjVdL0JLVNLJ.WH3G.jpeg",
+        "https://s11-95168.t34798ndc.com/Z5AKHnVOI8fpWzlctTv/u1Jmu/aG/0G/Nt/R5/Ec/hX/0U/0p/hU/R5/ZZ/OU/Ra/UG/VN/aV/EE-EpaUNOEZOUVOZ.W2XB.jpeg",
+        "https://s11-95168.t34798ndc.com/mw9o0ned7KpFMGJBc/tclbt/Mx/Yx/50/kC/RZ/dF/YV/YE/dV/kC/SS/WV/kM/Vx/U5/MU/RC-REMV5WRSWVUWS.JoFn.jpeg",
+        "https://s11-95168.t34798ndc.com/Q0n5izSGVDuoU/bWXob/0h/ph/5a/2N/UG/MF/pS/pR/MS/2N/VV/JS/20/Sh/k5/0k/UJ-UR0S5JUVJSkJV.EeFt.jpeg",
+        "https://s11-95168.t34798ndc.com/HofThSL5/amdZa/E5/P5/3D/YV/lO/GB/PN/PF/GN/YV/WW/CN/YE/N5/U3/EU/lU-lFEN3ClWCNUCW.1RB6.jpeg",
+        "https://s11-95168.t34798ndc.com/p8yNP4o9hY0Te7EsZxGv/FoOZF/pz/az/P0/ET/JX/Rw/aU/al/RU/ET/NN/VU/Ep/Uz/5P/p5/Ja-JlpUPVJNVU5VN.2xwk.jpeg",
+        "https://s11-95168.t34798ndc.com/a4WgdAX/iNVCi/Sh/0h/WE/5l/kd/oO/0R/02/oR/5l/UU/MR/5S/Rh/TW/ST/kU-k2SRWMkUMRTMU.1pOZ.jpeg",
+        "https://s11-95168.t34798ndc.com/nZapX/hYN5h/cn/jn/0C/TZ/Fz/VU/jR/jW/VR/TZ/dd/HR/Tc/Rn/l0/cl/FW-FWcR0HFdHRlHd.SBUx.jpeg",
+        "https://s11-95168.t34798ndc.com/nRKmgI/emXNe/zx/bx/cH/T5/EF/hk/bU/b1/hU/T5/22/lU/Tz/Ux/Vc/zV/Ez-E1zUclE2lUVl2.w9kt.jpeg",
+        "https://s11-95168.t34798ndc.com/cHiPj/f95Qf/dV/kV/WI/EZ/FG/tn/kU/kv/tU/EZ/ll/PU/Ed/UV/TW/dT/FW-FvdUWPFlPUTPl.0AnM.jpeg"
+      ]
+    },
     {
       "chapter_number": 235,
       "chapter_title": "Ch. 235",

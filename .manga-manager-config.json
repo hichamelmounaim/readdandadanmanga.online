@@ -69,6 +69,27 @@
         "totalChapters": 237,
         "bulkSync": true
       }
+    },
+    {
+      "id": "uq5i0lr",
+      "date": "2026-06-02T08:59:28.104Z",
+      "type": "manual_edit",
+      "description": "Auto-Push: Successfully committed and pushed updates to GitHub repository (main branch)."
+    },
+    {
+      "id": "goqf5pd",
+      "date": "2026-06-17T10:45:26.368Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. Found 2 new chapter(s): Ch. 236, Ch. 237.",
+      "details": {
+        "newChaptersCount": 2,
+        "newChapterNumbers": [
+          236,
+          237
+        ],
+        "totalChapters": 239,
+        "bulkSync": true
+      }
     }
   ]
 }
