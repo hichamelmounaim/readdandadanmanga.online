@@ -96,6 +96,20 @@
       "date": "2026-06-17T10:45:31.360Z",
       "type": "manual_edit",
       "description": "Auto-Push: Successfully committed and pushed updates to GitHub repository (main branch)."
+    },
+    {
+      "id": "pjwc755",
+      "date": "2026-06-26T15:37:25.442Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. Found 1 new chapter(s): Ch. 238.",
+      "details": {
+        "newChaptersCount": 1,
+        "newChapterNumbers": [
+          238
+        ],
+        "totalChapters": 240,
+        "bulkSync": true
+      }
     }
   ]
 }
